@@ -1,0 +1,83 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.4;
+    font-weight: 400;
+
+}
+
+.main-section{
+    background-image: url(images/student1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    color: rgb(8, 215, 205);
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 180px;
+    padding-left: 20px;
+}
+
+.sm-text{
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.lg-text{
+    font-size: 70px;
+}
+
+.box-section{
+    background-color: black;
+    padding: 25px;
+}
+
+.box-section h2{
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+}
+.box-section h2 span{
+    font-size: 80px;
+}
+.card-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 20px 0;
+}
+.card{
+    max-width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1, 1, 1, 0.2);
+    text-align: center;
+}
+.text-underline{
+    text-decoration: underline;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo{
+    width: 290px;
+    height: 250px;
+    padding-top: 15px;
+}
+
+
